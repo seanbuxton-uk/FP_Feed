@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Feed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <div class="new-post">
+            <div class="profile-pic">
+                <img src="profile-pic.jpg" alt="Profile Picture">
+            </div>
+            <textarea id="post-content" placeholder="Create a Post"></textarea>
+            <div class="post-options">
+                <button id="post-btn">Post</button>
+                <button class="option">Resource</button>
+                <button class="option">External Link</button>
+            </div>
+        </div>
+        <div class="feed">
+            <h2>Recent Posts</h2>
+            <div id="posts-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
